@@ -23,6 +23,6 @@ end $$
 delimiter ; 
 
 select documento,
-	concat(nombre, ' ', apellido) as nombre_apellido,
+	concat(nombre, ' ', apellido) as full_name,
         fn_ver_creditos_cursados(documento) as creditos_que_cursa
 from estudiante;
