@@ -24,7 +24,7 @@ end $$
 delimiter ; 
 
 select documento,
-		concat(nombre, ' ', apellido) as nombre_apellido,
+	concat(nombre, ' ', apellido) as nombre_apellido,
         fn_ver_creditos_cursados(documento) as creditos_que_cursa
 from estudiante;
 
@@ -52,8 +52,8 @@ end $$
 delimiter ;
 
 select id,
-		nombre,
-		fn_cantidad_estudiantes_por_materia(id) as cantidad_estudiantes
+	nombre,
+	fn_cantidad_estudiantes_por_materia(id) as cantidad_estudiantes
 from materia;
 
 
@@ -80,6 +80,6 @@ end $$
 delimiter ;
 
 select documento,
-		concat(nombre, ' ', apellido) as nombre_apellido,
-		fn_tipo_contrato_docente(documento) as tipo_contrato
+	concat(nombre, ' ', apellido) as nombre_apellido,
+	fn_tipo_contrato_docente(documento) as tipo_contrato
 from docente;
