@@ -4,12 +4,10 @@ delimiter $$
 
 create procedure pr_listar_estudiantes_por_curso(in p_id_curso int)
 begin
-    -- consulta para obtener la lista de estudiantes inscritos en el curso dado
-    select documento,
-		concat(nombre, ' ', apellido) as nombre_apellido,
-        id_curso
-    from estudiante
-    inner join estudiante_x_curso on estudiante.documento = estudiante_x_curso.documentos_estudiante
+    select id_curso,
+		documento,
+		concat(nombre, ' ', apellido) as full_name
+    from estudiante inner join estudiante_x_curso on estudiante.documento = estudiante_x_curso.documentos_estudiante
     where estudiante_x_curso.id_curso = p_id_curso;
 end$$
 
