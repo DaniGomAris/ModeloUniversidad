@@ -1,7 +1,7 @@
 -- crear tablas que vamos a usar
 
 create schema if not exists modelo_universidad;
--- drop schema modelo_univeridiadad;
+-- drop modelo_universidad;
 
 -- Crear la tabla carrera
 create table modelo_universidad.carrera (
@@ -87,7 +87,7 @@ insert into modelo_universidad.estudiante (documento, nombre, apellido, id_carre
 insert into modelo_universidad.docente (documento, nombre, apellido, tipo_contrato) values
 (2001, 'Laura', 'Pérez', 'Tiempo Completo'),
 (2002, 'José', 'García', 'Medio Tiempo'),
-(2003, 'Marta', 'Rodríguez', 'Contratista'),
+(2003, 'Marta', 'Rodríguez', 'Catedrático'),
 (2004, 'Pedro', 'Sánchez', 'Catedrático');
 
 -- Insertar datos en materia

@@ -36,11 +36,11 @@ id_curso_ int not null,
 capacidad_ int not null,
 faltante_ int   not null
 );
--- SET SQL_SAFE_UPDATES = 0;
 
 delimiter $$
 create procedure cupos_restantes()
 begin
+SET SQL_SAFE_UPDATES = 0;
 DELETE FROM cupos_faltantes; 
 insert into cupos_faltantes (id_curso_, capacidad_, faltante_)
 select curso.id_curso, curso.capacidad, curso.capacidad - count(estudiante_x_curso.id_curso) as faltante
