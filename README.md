@@ -1,7 +1,7 @@
 # Autores:
-* Liana Diaz
-* Daniel Gomez
-* David Lopez
+* Liana Diaz.
+* Daniel Gomez.
+* David Lopez.
 
 # Problema: Modelo de Datos para Gestor de Base de Datos de Universidad
 La Universidad X lleva registros de sus operaciones de forma manual, y todos los datos que maneja están en archivos de Excel. 
@@ -16,7 +16,7 @@ Dentro de las funcionalidades que el programa debe tener, se incluyen las siguie
 ### Estudiantes:
 * *Insertar Nuevo Estudiante* : Permitir la adición de nuevos estudiantes a la base de datos.
 * *Eliminar Estudiantes* : Posibilidad de eliminar estudiantes del sistema.
-* *Asignarle carrera* : Inscribir al estudiante en la carrera que este desee
+* *Asignarle carrera* : Inscribir al estudiante en la carrera que este desee.
 
 ### Docentes:
 * *Ingresar Profesores Nuevos* : Permitir la adición de nuevos profesores a la base de datos.
@@ -33,48 +33,47 @@ Dentro de las funcionalidades que el programa debe tener, se incluyen las siguie
 
 ### Cursos:
 
-* Cursos disponibles: Ver cuales cursos estan disponibles y cuales no 
-* Capasidad maxima para curso: Ver la capacidad de cada curso y definir si el estudiante puede ingresar o no
-* docente de cada curso: Asignar un docente a cada curso
-* ver si esta activo: manejar y administrar los cursos que estan activos o inactivos
+* Cursos disponibles: Ver cuales cursos estan disponibles y cuales no.
+* Capasidad maxima para curso: Ver la capacidad de cada curso y definir si el estudiante puede ingresar o no.
+* docente de cada curso: Asignar un docente a cada curso.
+* ver si esta activo: Manejar y administrar los cursos que estan activos o inactivos.
 
 
-## archivos del repositorio 
-Este repositorio contiene todos los entregables que se deben de realizar
+## Archivos del repositorio 
+Este repositorio contiene todos los entregables que se deben realizar siguiendo la rúbrica presentada.
 
 ### Diagrama.jpg
-Este repo contiene el modelo relacional que describe el proceso que estamos llevando acabo, en este caso que es administrar el ingreso 
-de los entudiantes y profesores a universidad y la asignacion de materias y cursos a cada uno de estos
+Este repositorio contiene el modelo relacional que describe el proceso que se lleva a cabo, cuya función principal es administrar el ingreso 
+de los estudiantes y profesores a la universidad X, y la asignación de materias y cursos a cada uno respectivamente.
 
 ### Planteamiento_tablas.sql 
-Aca se muestra la creacion de las tablas mostradas en el modelo relacional y su posterior insercion de datos
+Se evidencia la creación de las tablas presentadas en el modelo relacional y su posterior inserción de datos.
 
 ### Procedimientos almacenados
-En esta parte de aca vamos a encontrar todos los procedimiento
-1. insertar docente.
-2. eliminar docente.
-3. insertar estudiante.
-4. eliminar estudiante.
-5. insertar carrera.
-6. insertar materia.
+1. Insertar docente.
+2. Eliminar docente.
+3. Insertar estudiante.
+4. Eliminar estudiante.
+5. Insertar carrera.
+6. Insertar materia.
 
 ### Funciones
-1. Creditos de cada estudiante
-2. estufdiantes inscritos en cada curso
-3. tipo de contrato de cada profe
+1. Créditos de cada estudiante.
+2. Estudiantes inscritos en cada curso.
+3. Tipo de contrato de cada profesor.
 
 ### Reportes 
 
-1. cuantos estudiantes hay por carrera
-2. Promedio de creditos cursados por semestre en general
-3.  Cuantos cursos activos tiene cada docente
-4.  Cupos faltanes por curso
-5.  Nomina de profesores por materia
-6.  Porcentaje de estudiantes que esta en cada carrera
-7.  Carrera con mayor cantidad de porcenje de estudiantes
+1. Cantidad de estudiantes por carrera.
+2. Promedio de créditos cursados por semestre en general.
+3. Cuántos cursos activos tiene cada docente.
+4. Cupos sobrantes por cada curso.
+5. Nómina de profesores por materia.
+6. Porcentaje de estudiantes en cada carrera.
+7. Carrera con mayor porcentaje de estudiantes.
 
  ## tiggers
-1. Tigger que me guarda los profes que han salido de la universidad
-2. ntigger que me guarda las materias nuevas que se han creado
+1. Guardar los profesores que se han retirado de la universidad.
+2. Guardar las materias que se han creado.
 
   
