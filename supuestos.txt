@@ -1,0 +1,6 @@
+* Para el cálculo del valor a pagar a los profesores se tiene en cuenta que por hora:
+  * Tiempo completo se les paga por materia 5000000 
+  * Medio tiempo se les paga por materia 2500000 
+  * Cátedra se les paga por materia 1000000
+* En una materia pueden haber estudiantes de diferentes carreras (Ej: En modelo de datos hay estudiantes de Ing.Sistemas y Computación Científica).
+* Para el curso nos abstraemos de usar atributos como horario o salón.
