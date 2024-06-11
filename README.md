@@ -72,7 +72,7 @@ Se evidencia la creación de las tablas presentadas en el modelo relacional y su
 6. Porcentaje de estudiantes en cada carrera.
 7. Carrera con mayor porcentaje de estudiantes.
 
- ## tiggers
+ ## Triggers
 1. Guardar los profesores que se han retirado de la universidad.
 2. Guardar las materias que se han creado.
 
