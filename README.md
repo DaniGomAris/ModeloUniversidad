@@ -58,9 +58,9 @@ Se evidencia la creación de las tablas presentadas en el modelo relacional y su
 6. Insertar materia.
 
 ### Funciones
-1. Créditos de cada estudiante.
-2. Estudiantes inscritos en cada curso.
-3. Tipo de contrato de cada profesor.
+1. Ver los créditos de cada estudiante.
+2. Ver la cantidad de estudiantes inscritos en cada materia.
+3. Ver el tipo de contrato de cada profesor.
 
 ### Reportes 
 
